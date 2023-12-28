@@ -1,0 +1,150 @@
+.user-card {
+    display: flex;
+    border: 17px solid #ddd;
+    border-radius: 59px;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  
+  .user-info {
+    padding: 16px;
+  }
+  
+  .clock-section {
+    padding: 16px;
+    display: flex;
+    border: 17px solid #ddd;
+    border-radius: 59px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    flex-direction: row;
+  }
+  .boxCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    display: inline-block; /* Display cards inline */
+    vertical-align: top; /* Align cards to the top of the row */
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .content {
+    font-size: 14px;
+  }
+  .profileCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 100%;
+    display: flex; /* Display cards inline */
+    vertical-align: top; /* Align cards to the top of the row */
+  }
+  .label1 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  
+  .user-block {
+    border: 1px solid #ddd;
+    background-color:lightsteelblue;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    cursor: pointer;
+    width: 100%; /* Set width to 100% to take the full width */
+    box-sizing: border-box; /* Include padding and border in the box sizing */
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-name {
+    text-align: right; /* Align the name to the right */
+  }
+  
+  .user-posts {
+    text-align: left; /* Align the posts to the left */
+  }
+  
+  /* .user-block:hover {
+    background-color: lightskyblue;
+  } */
+  .box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    min-width: 1000px;
+  }
+  .clock-section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .digital-clock {
+    display: flex;
+    align-items: center;
+    margin-left: 16px; /* Add space between country dropdown and clock */
+  }
+  
+  .digital-clock p {
+    margin-right: 16px; /* Add space between time and button */
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: lightgreen;
+  }
+  select {
+    margin-right: 16px; /* Add space to the right of the dropdown */
+  }
+  .time{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+  }
+  .app{
+    padding: 5px;
+  }
+
+  /* .form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  } */
+  
+  /* .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  } */
+  
+  /* .user-contact-info {
+    display: flex;
+    flex-direction: column;
+ 
+  } */
+  
+  
+
+ 
+
+ 
